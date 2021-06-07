@@ -1,4 +1,12 @@
 {
   "test_main_page.py::test_guest_can_go_to_login_page": true,
-  "test_main_page.py::test_guest_should_see_login_link": true
+  "test_main_page.py::test_guest_should_see_login_link": true,
+  "test_product_page.py::test_guest_can_add_product_to_basket[7]": true,
+  "test_product_page.py::test_guest_can_add_product_to_basket[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer3]": true,
+  "test_product_page.py::test_guest_can_add_product_to_basket[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer4]": true,
+  "test_product_page.py::test_guest_can_add_product_to_basket[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer5]": true,
+  "test_product_page.py::test_guest_can_add_product_to_basket[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer6]": true,
+  "test_product_page.py::test_guest_can_add_product_to_basket[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer7]": true,
+  "test_product_page.py::test_guest_can_add_product_to_basket[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer8]": true,
+  "test_product_page.py::test_guest_can_add_product_to_basket[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer9]": true
 }
