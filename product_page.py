@@ -1,6 +1,9 @@
 from selenium.common.exceptions import NoSuchElementException
 from .base_page import BasePage
 from .locators import ProductPageLocators
+from .locators import MainPageLocators
+
+import time
 
 
 class ProductPage(BasePage):
@@ -33,5 +36,10 @@ class ProductPage(BasePage):
         assert self.is_element_present(*ProductPageLocators.BOOK_NAME_IN_BASKET), "book name not found"
         book_name = self.browser.find_element(*ProductPageLocators.BOOK_NAME_IN_BASKET).text
         assert book_name == book_name_in_basket, "name book not equal name book in basket"
+
+    def should_not_be_success_message(self):
+        assert self.is_not_element_present(*ProductPageLocators.SUCCESS_MESSAGE), \
+            "Success message is presented, but should not be"
+
 
 

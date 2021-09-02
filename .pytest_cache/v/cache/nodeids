@@ -1,4 +1,7 @@
 [
-  "test_product_page.py::test_guest_can_add_product_to_basket[6]",
-  "test_product_page.py::test_guest_can_add_product_to_basket[7]"
+  "test_product_page.py::test_guest_cant_see_success_message_after_adding_product_to_basket",
+  "test_product_page.py::test_guest_cant_see_success_message",
+  "test_product_page.py::test_message_disappeared_after_adding_product_to_basket",
+  "test_product_page.py::test_guest_cant_see_product_in_basket_opened_from_main_page",
+  "test_product_page.py::test_guest_cant_see_product_in_basket_opened_from_product_page"
 ]
